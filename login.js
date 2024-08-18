@@ -291,7 +291,7 @@ function checkLogin() {
 
     if (username === validUsername && password === validPassword) {
         //change page
-        window.location.href = 'index.html';
+        window.location.href = 'land.html';
     } else {
         alert('Invalid username or password');
     }
